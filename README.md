@@ -29,7 +29,7 @@ Package name is exampe_pip_package
 ```
 ---
 
-#### PIP 包生成和学习的文档
+#### PIP 包生成发布使用学习文档
 
 ##### 源代码项目结构
 
@@ -103,7 +103,6 @@ Uploading distributions to https://test.pypi.org/legacy/
 >> 包已经上传成功的话，可以登录 [PyPI 网站](https://pypi.org/) 可以在右侧导航栏看到管理入口。
 >> 点击包名进去后你可以对你的包进行管理。
 
-
 ##### 发布成功后安装（pip install 方式）
 > 测试包的安装
 ```python
@@ -120,7 +119,7 @@ pip install exampe-pip-package
 pip install exampe-pip-package --upgrade
 ```
 
-#### 安装包后的使用
+###### 安装包后的使用
 > import 方式使用
 ```python
 >>> from exampe_pip_package import pip_test
@@ -133,7 +132,7 @@ Package name is exampe_pip_package
 
 ```
 
-> 发布成功后安装（requirements 方式使用）
+##### 发布成功后安装（requirements 方式使用）
 >> 目录结构
 ```python
 E:.
@@ -192,8 +191,6 @@ Upload failed (400): File already exists
 ```
 
 ##### 更多相关信息，见[官方文档](https://packaging.python.org/)。
-
-
-<p align="center">
-    <a href="https://github.com/xingangshi">more info</a>
+<p align="left">
+    <a href="https://github.com/xingangshi">More info</a>
 </p>
