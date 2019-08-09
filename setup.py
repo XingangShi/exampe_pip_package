@@ -1,11 +1,20 @@
 import setuptools
 
-with open("README.md", "r", encoding='UTF-8') as fh:
-    long_description = fh.read()
+import platform
+
+
+file_name = "README.md"
+
+if platform.python_version().find("2.7") != -1:
+    with open(file_name, "r") as fh:
+        long_description = fh.read()
+else:
+    with open(file_name, "r", encoding='UTF-8') as fh:
+        long_description = fh.read()
 
 setuptools.setup(
     name="exampe_pip_package",
-    version="0.0.3",
+    version="0.0.4",
     author="geekpanshi",
     author_email="vincentsxg@gmail.com",
     description="Just a pip package example",

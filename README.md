@@ -8,8 +8,9 @@ $ [sudo] pip install exampe_pip_package
 ```
 
 #### Features
-*   **example for add a new pip package.**
-*   add some doc about learn how to release a pip package.
+* **example for add a new pip package.**
+* add some doc about learn how to release a pip package.
+* **compatible with 2.7 and 3.X .
 
 #### Classes
 class|`__doc__`
