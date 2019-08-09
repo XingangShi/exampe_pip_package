@@ -4,7 +4,8 @@ $ [sudo] pip install exampe_pip_package
 ```
 
 #### Features
-*   **example for add a new pip package**
+*   **example for add a new pip package.**
+*   add some doc about learn how to release a pip package.
 
 #### Classes
 class|`__doc__`
@@ -95,9 +96,8 @@ Uploading distributions to https://test.pypi.org/legacy/
 ```
 
 > 包管理
->> 包已经上传成功的话，可以登录[PyPI 网站](https://pypi.org/)可以在右侧导航栏看到管理入口。
+>> 包已经上传成功的话，可以登录 [PyPI 网站](https://pypi.org/) 可以在右侧导航栏看到管理入口。
 >> 点击包名进去后你可以对你的包进行管理。
-
 
 
 ##### 发布成功后安装（pip install 方式）
@@ -111,9 +111,9 @@ pip install -i https://test.pypi.org/simple/ exampe-pip-package
 pip install exampe-pip-package
 ```
 
-> 更新包，可以使用 `--update` 参数来更新
+> 更新包，可以使用 `--upgrade` 参数来更新
 ```python
-pip install exampe-pip-package --update
+pip install exampe-pip-package --upgrade
 ```
 
 #### 安装包后的使用
@@ -138,7 +138,6 @@ E:.
     run.sh              # 安装包并执行文件
 ```
 >> [详见 requirements 方式使用](/test-requirements_type-example)
-
 
 ##### 免授权方式发布
 > 在 Home 目录下创建文件 `~/.pypirc`，内容如下
