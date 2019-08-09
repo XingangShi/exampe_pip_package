@@ -3,7 +3,7 @@ import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-​
+
 setuptools.setup(
     name="exampe_pip_package",
     version="0.0.1",
@@ -19,5 +19,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-	
+
 )
