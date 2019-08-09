@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="exampe_pip_package",
-    version="0.0.1",
+    version="0.0.2",
     author="geekpanshi",
     author_email="vincentsxg@gmail.com",
     description="Just a pip package example",
