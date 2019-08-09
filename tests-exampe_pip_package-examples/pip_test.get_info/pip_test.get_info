@@ -1,0 +1,6 @@
+#usr/bin/python
+
+from exampe_pip_package import pip_test
+
+a_pip_test = pip_test()
+a.get_info()
