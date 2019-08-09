@@ -1,0 +1,7 @@
+build
+
+dist
+
+exampe_pip_package.egg-info
+
+requirements_type_test
