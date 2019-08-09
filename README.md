@@ -1,6 +1,6 @@
 [![](https://img.shields.io/pypi/pyversions/dict.svg?longCache=True)](https://pypi.org/project/exampe-pip-package/)
 [![](https://img.shields.io/pypi/v/dict.svg?maxAge=3600)](https://pypi.org/project/exampe-pip-package/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/dict.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/dict.py/)
+[![Travis](https://api.travis-ci.org/XingangShi/exampe_pip_package.svg?branch=master)](https://travis-ci.org/XingangShi/exampe_pip_package.py/)
 
 #### Installation
 ```bash
